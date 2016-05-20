@@ -15,7 +15,7 @@ C       http://www-neos.mcs.anl.gov/neos/solvers/UCO:CGPLUS/
 C
 C     --------------------------------------------------------------------
 C
-      SUBROUTINE CGFAM(N,X,F,G,D,GOLD,IPRINT,EPS,W,
+      SUBROUTINE cgfam(N,X,F,G,D,GOLD,IPRINT,EPS,W,
      *                  IFLAG,IREST,METHOD,FINISH )
 C
 C Subroutine parameters
