@@ -2,6 +2,7 @@
 name = "cg-sys"
 version = "0.1.0"
 authors = ["noshu <naushad1290@gmail.com>"]
+license = "MIT"
 description = "The package provides an interface to CG+ fortran routine"
 homepage = "https://github.com/noshu/cg-sys"
 repository = "https://github.com/noshu/cg-sys"
@@ -9,4 +10,4 @@ build = "build.rs"
 [features]
 static = []
 [dependencies]
-libc = "*"
+libc = "0.2.11"
